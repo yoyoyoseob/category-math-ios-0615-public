@@ -4,7 +4,7 @@ platform :ios, '7.0'
 
 target :unit_tests, :exclusive => true do
   link_with 'UnitTests'
-  pod 'Specta'
+  pod 'Specta',     :git=>'git@github.com:specta/specta.git', :branch=>'0.3-wip' 
   pod 'Expecta'
   pod 'OCMockito'
   pod 'Swizzlean'

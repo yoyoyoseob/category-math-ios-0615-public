@@ -7,7 +7,7 @@ PODS:
   - OHHTTPStubs (3.1.5):
     - OHHTTPStubs/Core
   - OHHTTPStubs/Core (3.1.5)
-  - Specta (0.2.1)
+  - Specta (0.2.99)
   - Swizzlean (0.2.0)
   - TPWeakProxy (1.0.1)
 
@@ -15,15 +15,20 @@ DEPENDENCIES:
   - Expecta
   - OCMockito
   - OHHTTPStubs
-  - Specta
+  - Specta (from `git@github.com:specta/specta.git`, branch `0.3-wip`)
   - Swizzlean
+
+EXTERNAL SOURCES:
+  Specta:
+    :branch: 0.3-wip
+    :git: git@github.com:specta/specta.git
 
 SPEC CHECKSUMS:
   Expecta: 03aabd0a89d8dea843baecb19a7fd7466a69a31d
   OCHamcrest: b464725bbb48d0f1cd9c6f4ec3cb35fe0c4f2b94
   OCMockito: eca2670b3ce4a457d316b046a36d6f2b980a4da7
   OHHTTPStubs: c1e362552b71b81e1deb7a80f44c51585b946c43
-  Specta: 9141310f46b1f68b676650ff2854e1ed0b74163a
+  Specta: 85ea870d8886e0bbf92ed8df112823bf3eb07322
   Swizzlean: dc03ad1d847a3748f456982b7ede4e3bad4a9630
   TPWeakProxy: da4177b6ae5eff685642c1cd9698f71ef7060ea5
 
