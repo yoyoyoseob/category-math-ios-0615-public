@@ -11,7 +11,6 @@
 		29300D7F10354B1EBF39D169 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D61D66839CD45E898323BE7 /* main.m */; };
 		31B0BDEFFF3A4FBC9B60573B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6138509A5EC48AD80648958 /* Foundation.framework */; };
 		58025F34C33F409AB9275D23 /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5837AB42A6D240DA8A07F5E3 /* FISAppDelegate.m */; };
-		7223E42419D5BF9000E06AB0 /* NSNumber+FISMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 7223E42319D5BF9000E06AB0 /* NSNumber+FISMath.m */; };
 		7223E42619D5BFCD00E06AB0 /* NSNumber+FISMathSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7223E42519D5BFCD00E06AB0 /* NSNumber+FISMathSpec.m */; };
 		F5858952A0174ED38C4595AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AB8BE8A3CB9436CA7983262 /* Images.xcassets */; };
 /* End PBXBuildFile section */
@@ -28,16 +27,15 @@
 
 /* Begin PBXFileReference section */
 		0D61D66839CD45E898323BE7 /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E8A1A0F6BD8AA17224B6027 /* Pods-unit_tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.release.xcconfig"; sourceTree = "<group>"; };
 		3AB8BE8A3CB9436CA7983262 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		42D799B8830F4AF9A7936AAA /* FISAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FISAppDelegate.h; sourceTree = "<group>"; };
 		5837AB42A6D240DA8A07F5E3 /* FISAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegate.m; sourceTree = "<group>"; };
+		5CE73FE89A4074BA2BEF84B6 /* Pods-unit_tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6FCB94E5152740AEAA072B42 /* libPods-unit_tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-unit_tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7223E42219D5BF9000E06AB0 /* NSNumber+FISMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+FISMath.h"; sourceTree = "<group>"; };
-		7223E42319D5BF9000E06AB0 /* NSNumber+FISMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+FISMath.m"; sourceTree = "<group>"; };
 		7223E42519D5BFCD00E06AB0 /* NSNumber+FISMathSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+FISMathSpec.m"; sourceTree = "<group>"; };
 		A464BA46F2F441B3AF158F2D /* CategoryMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CategoryMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6138509A5EC48AD80648958 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		B5BBBAEDD7DB46E6A2A757C7 /* Pods-unit_tests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.xcconfig"; path = "Pods/Pods-unit_tests.xcconfig"; sourceTree = "<group>"; };
 		B6CBBA13D75040539DAFF525 /* CategoryMath-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CategoryMath-Prefix.pch"; sourceTree = "<group>"; };
 		BD5ADB60AE1D46CEA8464E66 /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
 		D4E3E72B46754A808AE13190 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,12 +106,21 @@
 				9322316CF2E54AFAB8AE4485 /* UnitTests */,
 				711CABAAE4414A10B1DBEA8D /* Frameworks */,
 				E2C1ADF4DCCE4321A64EC133 /* Products */,
-				B5BBBAEDD7DB46E6A2A757C7 /* Pods-unit_tests.xcconfig */,
+				8620535E20C47DA38C4B274F /* Pods */,
 			);
 			indentWidth = 4;
 			sourceTree = "<group>";
 			tabWidth = 4;
 			usesTabs = 0;
+		};
+		8620535E20C47DA38C4B274F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E8A1A0F6BD8AA17224B6027 /* Pods-unit_tests.release.xcconfig */,
+				5CE73FE89A4074BA2BEF84B6 /* Pods-unit_tests.debug.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
 		};
 		9322316CF2E54AFAB8AE4485 /* UnitTests */ = {
 			isa = PBXGroup;
@@ -260,7 +267,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-unit_tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		47651A5FF325408D81441632 /* Warn for TODO and FIXME comments */ = {
@@ -350,7 +357,7 @@
 		};
 		3D50EC439AF1458EAD456835 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5BBBAEDD7DB46E6A2A757C7 /* Pods-unit_tests.xcconfig */;
+			baseConfigurationReference = 1E8A1A0F6BD8AA17224B6027 /* Pods-unit_tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CategoryMath.app/CategoryMath";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -499,7 +506,7 @@
 		};
 		D6E22C7EEA9A45EDB3741F4B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5BBBAEDD7DB46E6A2A757C7 /* Pods-unit_tests.xcconfig */;
+			baseConfigurationReference = 5CE73FE89A4074BA2BEF84B6 /* Pods-unit_tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CategoryMath.app/CategoryMath";
 				FRAMEWORK_SEARCH_PATHS = (
