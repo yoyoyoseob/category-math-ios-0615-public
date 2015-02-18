@@ -27,3 +27,8 @@ languages: objc
 5. For more information, examine the tests in the `NSNumber+FISMathSpec` file
 6. Make the tests pass!
 
+## Advanced
+
+  1. First add in the `ADVANCED` pre-processor macro to turn on the advanced tests.
+  2. Now let's make our category work a bit better. Right now it only works on integers because we have to convert everything to an `NSInteger` before doing the math. The problem is this should work for any time of `NSNumber` no matter whether it has decimal points or anything. There is a method on `NSNumber` called [objctype](http://stackoverflow.com/questions/2518761/get-type-of-nsnumber) that will tell you what time of number it is. Go ahead and use that so that our category works on all types of numbers.
+
